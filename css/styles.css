@@ -1,0 +1,358 @@
+body {
+    background-color: thistle;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+}
+
+/* Header Section*/
+header {
+    background-color: white;
+    height: 64px;
+    margin: 0;
+    width: 100%;
+    z-index: 1;
+   }
+
+.container{
+    height: 64px;
+    width: 100%;
+    margin: 0;
+    display: inline-flex;
+    align-items: center;
+}
+
+.logo {
+    float: left;
+    padding-left: 24px;
+}
+
+.school--name {
+    margin: 0;
+    text-transform: uppercase;
+    color: slategray;
+    font-size: 20px;
+}
+
+.menu {
+    margin-left: auto;
+}
+
+nav {
+    padding-right: 24px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    color: slategray;
+    text-decoration: none;
+    font-size: 20px;    
+    padding-left: 12px;
+    margin: 0;
+}
+
+/* banner section */
+.banner {
+    width: 100%;
+    overflow: hidden;
+    background-color: lightgray;
+}
+
+.banner img {
+    max-width: 60%;
+    height: auto;
+    display: inline-block;
+    padding: 32px 24px;
+    float: left;
+}
+
+.banner-text {
+    margin-top: 200px;
+    color: dimgray;
+    text-align: center;
+    padding-right: 24px;
+    }
+
+.learn {
+    font-weight: bold;
+    }
+
+.start-here {
+    color: white;
+    background-color: dimgray;
+    padding: 8px 100px;
+    text-decoration: none;
+    transition-property: background-color;
+    transition-timing-function: linear;
+}
+
+.start-here:hover {
+    background-color: dodgerblue;
+}
+
+
+/* information section */
+
+.information {
+    background-color: snow;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+}
+
+.box {
+    padding: 32px 24px;
+    max-width: 60%;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+}
+
+.box h1 {
+    color: dimgray;
+    text-align: left;
+}
+
+.box .text {
+    color: dimgray;
+    font-size: 16px;
+    width: 95%;
+}
+
+.box .author {
+    color: dimgray;
+    font-size: 12px;
+    padding-top: 32px;
+}
+
+.box-right {
+    background-color: snow;
+    padding-top: 32px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid lightgray;
+}
+
+.box-right img {
+    width: 35%;
+    height: auto;
+    float: left;
+}
+
+.orientation {
+    display: inline-block;
+    color: dimgray;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    border-bottom: 2px solid lightgray;
+}
+
+.orientation img {
+    padding-right: 24px;
+}
+
+
+.read-more {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.campus {
+    display: inline-block;
+    padding: 16px 0px 16px 16px;
+    color: dimgray;
+}
+
+.campus img {
+    padding-right: 24px;
+}
+
+.guest {
+    background-color: lightgray;
+    color: dimgray;
+    display: inline-block;
+    padding: 16px 0px 16px 16px;
+}
+
+.guest img {
+    padding-right: 24px;
+}
+
+.box-right .text {
+    padding-bottom: 8px;
+}
+
+    /* courses section */
+
+.learn {
+    color: dimgray;
+    text-align: center;
+    background-color: lightgray;
+    padding: 32px 0px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 72px;
+    padding-right: 72px;
+    background-color: lightgray;
+    margin-top: 0;
+    justify-content: flex-start;
+}
+
+.subject {
+    background-color: snow;
+    flex: 1;
+    height: auto;
+    margin-bottom: 32px;
+}
+
+.subject:nth-of-type(2) {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.subject img {
+    max-width: 100%;
+    height: auto;
+}
+
+.subject h3 {
+    color: dimgray;
+    padding-left: 16px;
+    margin-top: 0px;
+    padding-top: 16px;
+    margin-bottom: 0px;
+}
+
+.subject .text1 {
+    color: dimgray;
+    padding-left: 16px;
+    margin-top: 0px;
+    padding-top: 8px;
+}
+
+.subject .text {
+    color: dimgray;
+    padding-left: 16px;
+    margin-top: 0px;
+    padding-top: 8px;
+    padding-bottom: 24px;
+}
+
+/* thesis section */
+
+.thesis-header {
+    color: dimgray;
+    background-color: snow;
+    padding: 32px 0px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.thesis {
+    width: 100%;
+    overflow: hidden;
+    background-color: snow;
+    margin-top: 0px;
+    display: flex;
+    padding-bottom: 32px;
+    border-bottom: solid 2px lightgray;
+}
+
+.thesis-left {
+    max-width: 60%;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    float: left;
+}
+
+.thesis video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.thesis h3 {
+    color: dimgray;
+    padding-bottom: 0px;
+}
+
+.thesis .text {
+    color: dimgray;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.thesis img {
+    width: 35%;
+    height: auto;
+    padding: 16px 16px 16px 16px;
+    float: left;
+}
+
+.thesis-right {
+    max-width: 100%;
+}
+
+.thesis-right .fisma {
+    width: 100%;
+    background-color: lightgray;
+    display: inline-block;
+   
+    
+}
+
+.thesis-right .now {
+    width: 100%;
+    display: inline-block;
+}
+
+.fisma img {
+    width: 35%;
+}
+
+.thesis-right h3 {
+    padding-top: 18px;
+}
+
+/* Footer section */
+
+footer {
+    background-color: snow;
+    height: 72px;
+    padding-left: 24px;
+    padding-top: 16px;
+    color: dimgray;
+    font-size: 12px;
+    display: inline-block;
+    width: 100%;
+}
+
+footer nav {
+    float: right;   
+    padding-right: 24px;
+}
+
+footer li a {
+    font-size: 12px;
+    font-weight: bold;
+}
