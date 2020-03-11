@@ -1,0 +1,168 @@
+        /* body styles */
+
+body {
+    width: 480px;
+    background-color: lightblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: dimgray;
+    margin: 0px 0px 0px 0px;
+}
+
+        /* header styles */
+
+header {
+    height: 64px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+header img {
+width: 2.5em;
+height: auto;
+}
+
+body img {
+    max-width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+        /*  START SECTION */
+
+.start {
+    background-color: lightgrey;
+    margin-top: 0px;
+    padding-left: 16px;
+}
+
+.start h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.start h2 {
+    padding-top: 0px;
+    padding-bottom: 24px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.start .button {
+    color: white;
+    background-color: dimgray;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-right: 16px;
+    text-align: center;
+    font-size: 26px;
+}
+
+.start .spacer {
+    background-color:lightgray;
+    height: 32px;
+    margin-bottom: 0px;
+}
+
+        /* orientation section*/        
+
+.orientation {
+    background-color: white;
+    width: 100%;
+    margin-top: 0px;
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+
+.orientation .img {
+    max-height: 100%;
+    width: auto;
+    display: block;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 0px;
+}
+
+.orientation h2 {
+    padding-left: 32px;
+}
+
+.orientation .text {
+    padding-left: 32px;
+}
+
+.orientation .read-more {
+    padding-top: 16px;
+    padding-left: 32px;
+    padding-bottom: 48px;
+    color: blue;
+}
+
+.orientation .read-more2 {
+    padding-top: 16px;
+    padding-left: 32px;
+    padding-bottom: 32px;
+    color: blue;
+    border-bottom: 1px lightgray solid;
+    margin-bottom: 0px;
+}
+
+        /* courses section */
+
+.courses {
+    background-color: white;
+    padding-bottom: 32px;
+    border-bottom: solid 1px lightgray;
+}
+
+.courses h1 {
+    padding-top: 32px;
+    padding-bottom: 24px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.courses .button {
+    background-color: lightgray;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    margin-bottom: 8px;
+    margin-left: 16px;
+    margin-right: 16px;
+    font-size: 26px;
+}
+
+        /* thesis section */
+
+.thesis {
+    background-color: white;
+    width: 100%;
+    overflow: hidden;
+}
+
+.thesis h1 {
+    padding-top: 32px;
+    padding-bottom: 16px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+body video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.thesis .vid {
+    padding-bottom: 42px;
+}
+
+.thesis .footer {
+    padding-bottom: 16px;
+    padding-left: 16px;
+    font-size: 12px;
+}
